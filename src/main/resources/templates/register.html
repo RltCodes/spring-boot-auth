@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="/register" method="post">
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="roles">Choisissez les rôles :</label><br>
+        <input type="checkbox" name="roles" value="USER"> Utilisateur<br>
+        <input type="checkbox" name="roles" value="ADMIN"> Administrateur<br>
+
+        <button type="submit">S'inscrire</button>
+    </form>
+</body>
+</html>
